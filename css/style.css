@@ -1,0 +1,116 @@
+/* Universally Applied CSS */
+
+/* Styles nav bar title elements across all pages */
+.navbar-header .row .h1  {    
+    background-color: teal;
+    color: white;    
+    margin: 0; 
+}
+
+/* Imports background image for all pages */
+body {
+    background-image: url("../images/depositphotos_185554490-stock-illustration-vector-seamless-lattice-pattern-modern.jpg");    
+  }
+
+/* Styles nav bar row elements */  
+.navbar-header .row {    
+    background-color: white;
+}
+
+/* Styles all images */
+.img {
+    border: 0;
+}
+
+/* Styles footer element across all pages */
+.page-footer {
+    padding-top: 50px;
+}
+
+/* Styles footer text across all pages */
+.footer-copyright {
+    background-color: gray;
+    color: white;
+}
+
+/* Styles horizontal line across all pages */
+.bottom-line {
+    border-top-style: solid; 
+    border-color: teal;
+    border-width: thick;
+    padding-bottom: -20px;   
+}
+
+/* About CSS */
+
+/* Styles horizontal line found at the middle top of the page */
+.middle-line {
+    border-top-style: solid; 
+    border-width: thin;
+}
+
+/* Styles About Me header near the middle top of page */
+.row .col-lg-12 {
+    color: teal;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+/* Styles the image element on page */
+.img-responsive {   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;   
+}
+
+/* Styles paraph elements on page */
+.about-me-text {
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+/* Portfolio CSS */
+
+/* Styles title element located within card element */
+.card-deck .h1 {
+    color: teal;
+}
+
+/* Styles links */
+a {
+    color: gray;
+}
+
+/* Styles card element */
+.card {
+    margin-top: 30px;
+}
+
+/* Styles card container element */
+.card-container {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+/* Styles card forms */
+.card-form {
+    background-color: white;
+    padding: 10px;    
+}
+
+/* Contact CSS */
+
+/* Styles title element */
+.container .card .h1 {
+    color: teal;
+}
+
+/* Styles button */
+.btn {
+    background-color: teal;
+    border: 0px;
+    border-radius: 0;
+}
