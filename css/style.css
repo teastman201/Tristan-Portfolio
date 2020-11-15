@@ -10,6 +10,7 @@
 /* Imports background image for all pages */
 body {
     background-image: url("../images/396106_kaieteur-falls-guyana-wallpaper_3500x2333_h.jpg");    
+    background-color: cadetblue;
   }
 
 /* Styles nav bar row elements */  
@@ -19,8 +20,23 @@ body {
 
 /* Styles all images */
 .img {
-    border: 0;
-    border-radius: 50%;
+    border: 0;    
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
 
 /* Styles footer element across all pages */
