@@ -20,6 +20,7 @@ body {
 /* Styles all images */
 .img {
     border: 0;
+    border-radius: 50%;
 }
 
 /* Styles footer element across all pages */
@@ -63,6 +64,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 15px;   
+    border-radius: 50%;
 }
 
 /* Styles paraph elements on page */
