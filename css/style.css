@@ -1,21 +1,55 @@
 /* Universally Applied CSS */
 
+/* Sets background color for all pages */
+body {    
+    background-color: rgb(17, 73, 102);    
+  }
+
+ #page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Sets footer height */
+}
+
 /* Styles nav bar title elements across all pages */
 .navbar-header .row .h1  {    
-    background-color: teal;
-    color: white;    
+    background-color: gray;
+    color: whitesmoke;    
     margin: 0; 
 }
 
-/* Imports background image for all pages */
-body {
-    background-image: url("../images/396106_kaieteur-falls-guyana-wallpaper_3500x2333_h.jpg");    
-    background-color: cadetblue;
-  }
-
 /* Styles nav bar row elements */  
 .navbar-header .row {    
-    background-color: white;
+   background-color: gray;    
+}
+
+.top-line {
+    margin: 100;
+    /* border: white; */
+    color: teal;
+}
+
+.line {
+    border-top-style: solid; 
+    border-color: teal;
+    border-width: thick;
+    padding-bottom: -20px;   
+    margin-top: 0px;
+}
+
+.row .col-lg-12 {
+    color: whitesmoke;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.col-lg-12 {
+    background-color:rgb(17, 73, 102);
 }
 
 /* Styles all images */
@@ -23,57 +57,30 @@ body {
     border: 0;    
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
 
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
-}
 
-/* Styles footer element across all pages */
-.page-footer {
-    padding-top: 50px;
-}
 
-/* Styles footer text across all pages */
-.footer-copyright {
-    background-color: gray;
-    color: white;
-}
+
+
 
 /* Styles horizontal line across all pages */
-.bottom-line {
-    border-top-style: solid; 
-    border-color: teal;
-    border-width: thick;
-    padding-bottom: -20px;   
+
+
+#top-line {
+    background-color: teal;
 }
 
 /* About CSS */
 
 /* Styles horizontal line found at the middle top of the page */
 .middle-line {
-    border-top-style: solid; 
-    border-width: thin;
+    /* border-top-style: solid; 
+    border-width: thin; */
 }
 
 /* Styles About Me header near the middle top of page */
-.row .col-lg-12 {
-    color: teal;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-}
+
 
 /* Styles the image element on page */
 .img-responsive {   
@@ -93,12 +100,12 @@ body {
 
 /* Styles title element located within card element */
 .card-deck .h1 {
-    color: teal;
+    color: red;
 }
 
 /* Styles links */
 a {
-    color: gray;
+    color: whitesmoke;
 }
 
 /* Styles card element */
@@ -108,14 +115,14 @@ a {
 
 /* Styles card container element */
 .card-container {
-    background-color: white;
+    background-color: gray;
     padding: 30px;
     margin: 30px;
 }
 
 /* Styles card forms */
 .card-form {
-    background-color: white;
+    background-color: gray;
     padding: 10px;    
 }
 
@@ -123,7 +130,7 @@ a {
 
 /* Styles title element */
 .container .card .h1 {
-    color: teal;
+    color: whitesmoke;
 }
 
 /* Styles button */
@@ -131,4 +138,30 @@ a {
     background-color: teal;
     border: 0px;
     border-radius: 0;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  /* background-size: cover; */
+  margin-left: 0px;
+  margin-right: 0px;
+  position: 10px;
+  /* min-width: 100vh; */
+}
+
+
+
+/* Styles footer element across all pages */
+.page-footer {
+    padding-top: 0px;
+    /* width: 100%; */
+}
+
+/* Styles footer text across all pages */
+.footer-copyright {
+    background-color: gray;
+    color: whitesmoke;
 }
