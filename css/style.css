@@ -1,55 +1,21 @@
 /* Universally Applied CSS */
 
-/* Sets background color for all pages */
-body {    
-    background-color: rgb(17, 73, 102);    
-  }
-
- #page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Sets footer height */
-}
-
 /* Styles nav bar title elements across all pages */
 .navbar-header .row .h1  {    
-    background-color: gray;
-    color: whitesmoke;    
+    background-color: rgb(82, 82, 82);
+    color: white;    
     margin: 0; 
 }
 
+/* Imports background image for all pages */
+body {
+  
+    background-color: #0B3142;
+  }
+
 /* Styles nav bar row elements */  
 .navbar-header .row {    
-   background-color: gray;    
-}
-
-.top-line {
-    margin: 100;
-    /* border: white; */
-    color: teal;
-}
-
-.line {
-    border-top-style: solid; 
-    border-color: teal;
-    border-width: thick;
-    padding-bottom: -20px;   
-    margin-top: 0px;
-}
-
-.row .col-lg-12 {
-    color: whitesmoke;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-}
-
-.col-lg-12 {
-    background-color:rgb(17, 73, 102);
+    background-color: rgb(82, 82, 82);;
 }
 
 /* Styles all images */
@@ -57,30 +23,75 @@ body {
     border: 0;    
 }
 
-
-
-
-
-
-
-
-/* Styles horizontal line across all pages */
-
-
-#top-line {
-    background-color: teal;
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  background-color:  rgb(82, 82, 82);
+}
+
+/* Styles footer element across all pages */
+.page-footer {
+    padding-top: 50px;
+}
+
+/* Styles footer text across all pages */
+.footer-copyright {
+    background-color: #0B3142;
+    color: white;
+}
+
+/* Styles horizontal line across all pages */
+#top-line {
+    border-top-style: solid; 
+    border-color: teal;
+    border-width: thick;
+    padding-bottom: -
+    20px;   
+}
+
+#bottom-line{
+    border-top-style: solid; 
+    border-color: teal;
+    border-width: thick;
+    margin: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+#copyright-area {
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgb(82, 82, 82);
+}
 /* About CSS */
 
 /* Styles horizontal line found at the middle top of the page */
 .middle-line {
-    /* border-top-style: solid; 
-    border-width: thin; */
+    border-top-style: solid; 
+    border-width: thin;
 }
 
 /* Styles About Me header near the middle top of page */
-
+.row .col-lg-12 {
+    color: whitesmoke;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
 
 /* Styles the image element on page */
 .img-responsive {   
@@ -100,7 +111,7 @@ body {
 
 /* Styles title element located within card element */
 .card-deck .h1 {
-    color: red;
+    color: whitesmoke;
 }
 
 /* Styles links */
@@ -111,19 +122,24 @@ a {
 /* Styles card element */
 .card {
     margin-top: 30px;
+    background-color: #0B3142;
 }
 
 /* Styles card container element */
-.card-container {
-    background-color: gray;
+/* .card-container {
+    background-color: white;
     padding: 30px;
     margin: 30px;
-}
+} */
 
 /* Styles card forms */
 .card-form {
-    background-color: gray;
+    background-color: #0B3142;
     padding: 10px;    
+}
+
+.form-group {
+    color: whitesmoke;
 }
 
 /* Contact CSS */
@@ -135,33 +151,7 @@ a {
 
 /* Styles button */
 .btn {
-    background-color: teal;
+    background-color: #0B3142;;
     border: 0px;
     border-radius: 0;
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
-  /* background-size: cover; */
-  margin-left: 0px;
-  margin-right: 0px;
-  position: 10px;
-  /* min-width: 100vh; */
-}
-
-
-
-/* Styles footer element across all pages */
-.page-footer {
-    padding-top: 0px;
-    /* width: 100%; */
-}
-
-/* Styles footer text across all pages */
-.footer-copyright {
-    background-color: gray;
-    color: whitesmoke;
 }
